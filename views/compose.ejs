@@ -1,0 +1,46 @@
+<%-include("partials/header")-%>
+
+
+    <h1 class="composeHeading">Compose</h1>
+
+    <form method="post" action="/compose">
+        <div class="input-group input-group-lg">
+            <input type="text" class="form-control" aria-label="Sizing example input" placeholder="Enter blog title..."
+                aria-describedby="inputGroup-sizing-lg" name="postTitle">
+        </div>
+
+        <br>
+        <div class="form-floating">
+            <textarea class="form-control" id="floatingTextarea2" placeholder="Leave a comment here"
+                name="postBody"></textarea>
+
+
+        </div>
+        <center><button type="submit" class="btn-large btn-success btn">Post</button></center>
+
+    </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <%-include("partials/footer")-%>

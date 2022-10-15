@@ -1,0 +1,91 @@
+body {
+    background-color: rgb(255, 250, 255);
+}
+
+.navbar {
+    min-height: 70px; 
+    font-weight: bolder; 
+    padding: 1% 5%;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #14C38E;
+    opacity: 0.8;
+}
+
+.nav-link:hover{
+    color:white;
+    font-weight: bolder;
+    border:1px solid white;
+}
+.nav-link{
+ margin:2px 6px;
+ padding:3px;
+}
+
+.composeHeading {
+    margin-left: 16%;
+    margin-bottom: 1%;
+    margin-top: 4%;
+}
+
+.btn {
+    padding: 5px 38px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+h1 {
+    color:#0e986f;
+    padding-left: 5px;
+    margin: 6% 0% 1% 6%;
+
+}
+h3{padding-left: 5px;
+margin: 2% 5%;
+color:#0e986f;
+}
+p {
+    margin: auto;
+    padding-left: 5px;
+    width: 88%;
+
+}
+a{
+    color:#0e986f;
+}
+
+
+/* Compose page Css */
+.input-group {
+    width: 68%;
+    margin: auto;
+}
+
+#floatingTextarea2 {
+    margin: auto;
+    width: 68%;
+    height: 250px;
+}
+
+::placeholder {
+    font-size: 0.8em;
+}
+input[type="text"]{
+    font-size:0.8em;
+}
+
+/* Compose page Css ends here */
+.footer {
+    background-color: #14C38E;
+    opacity: 0.7;
+    padding: 25px 10px;
+    color: white;
+position:relative;
+top:300px;
+    text-align: center;
+    width: 100%;
+
+}
+
+.footerPara {
+    padding-top: 25px;
+}

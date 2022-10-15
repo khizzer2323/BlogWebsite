@@ -1,0 +1,17 @@
+<%-include("partials/header")-%>
+
+
+    <h1 style="margin-top:8%;">Home</h1>
+    <p>
+        <%= homeContent%>
+    </p>
+    <%for(i=0; i<postTitle.length; i++){%>
+        <div>
+            <h3>
+                <%=postTitle[i]%>
+            </h3>
+            <p>
+                <%=postBody[i].substring(0,300)+"......"%><a href="/posts/:<%= postTitle %>">Read More</a></p>
+        </div>
+        <%}%>
+            <%-include("partials/footer")-%>
